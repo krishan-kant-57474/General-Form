@@ -1,0 +1,28 @@
+{
+  "name": "mern_stack_file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "krishan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cities-list": "^1.0.3",
+    "cookie-parser": "^1.4.6",
+    "countries-list": "^2.6.1",
+    "countries-states-cities": "^1.0.6",
+    "country-state-city": "^3.1.4",
+    "country-state-picker": "^1.1.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.19"
+  }
+}
